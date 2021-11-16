@@ -1,8 +1,8 @@
 /* false mutated to true_ 
-   in approximately 100 generation 
+   in approximately 100 generations 
    mutation: 1 random letter in one random position
-   10 mutated child and 1 parent
-   selected the best between child and parent
+   10 mutated children and 1 parent
+   selected the best between children and parent
 
    overall \sim 1000 mutation
 
