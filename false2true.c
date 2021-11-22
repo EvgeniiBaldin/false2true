@@ -4,11 +4,11 @@
    10 mutated children and 1 parent
    selected the best between children and parent
 
-   overall \sim 1000 mutation
+   overall \sim 1000 mutations
 
-   26 letters + _ symbol
+   27 = 26 letters + _ symbol
    5 positions
-   26^5=11881376
+   27^5=14,348,907
  */
 #include <stdlib.h>
 #include <string.h>
@@ -50,7 +50,7 @@ int scorecalc(char *word,char *result,int size) {
 
 
 int main() {
-  srand(4);
+  srand(4); // random seed
   char word[NLETTER]="false\0";
   char result[NLETTER]="true_\0";
   char childs[NLETTER*NCHILD];
