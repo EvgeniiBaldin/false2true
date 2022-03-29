@@ -1,14 +1,16 @@
-/* false mutated to true_ 
-   in approximately 100 generations 
-   mutation: 1 random letter in one random position
-   10 mutated children and 1 parent
-   selected the best between children and parent
+/* false turns into true_ 
+   in about 1000 generations 
+  
+   mutation defenition: 1 random letter in one random position
+   result: 10 mutated children and 1 parent
+   selecting: from the parent and children are chosen the most fittest
+   best fittest <=> the least squre summ of characters code difference with true_  
 
    overall \sim 1000 mutations
 
    27 = 26 letters + _ symbol
    5 positions
-   27^5=14,348,907
+   27^5=14,348,907 -- number of all possible variants
  */
 #include <stdlib.h>
 #include <string.h>
