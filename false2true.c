@@ -1,12 +1,12 @@
 /* false turns into true_ 
-   in about 1000 generations 
+   in about 100 generations 
   
    mutation defenition: 1 random letter in one random position
    result: 10 mutated children and 1 parent
    selecting: from the parent and children are chosen the most fittest
    best fittest <=> the least squre summ of characters code difference with true_  
 
-   overall \sim 1000 mutations
+   overall \sim 100 mutations
 
    27 = 26 letters + _ symbol
    5 positions
